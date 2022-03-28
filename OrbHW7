@@ -1,0 +1,16 @@
+%Andrew Farmer Orbital Homework 7 Problem 3
+hp =  1000;
+ha = 4000;
+i = 45; 
+omega = 40;
+w = 40;
+trueAnom = 20; 
+J2Earth = 1.08263*10^-3;
+mu = 398600;
+RE = 6378;
+tOrb = 2*pi /sqrt(mu)* (a)^3/2;
+r = 
+%t = 0:.01:50*tOrb;
+a = (hp + ha)/2;
+e = (ha - hp)/(ha+hp);
+%aJ2 = (-3/2)*(J2EARTH)*(mu/r^2)*(Re/r)^2 * [(1-5*(z/r)^2)*(x/r);(1-5*(z/r)^2)*(y/r);(3-5*(z/r)^2)*(z/r)]
